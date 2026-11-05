@@ -1,0 +1,14 @@
+# Binary downloads belong to GitHub release assets, not source archives.
+*.dll
+*.pdb
+*.lib
+*.zip
+dist/
+.scratch/
+
+# Never publish local addon data or credentials.
+settings.json
+notes.json
+.env
+.env.*
+*.log
